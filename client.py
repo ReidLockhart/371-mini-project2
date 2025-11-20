@@ -2,7 +2,7 @@ import socket
 import time
 from util import *
 
-SERVER_ADDR = ("127.0.0.1", 9000)
+SERVER_ADDR = (SERVER_IP, SERVER_PORT)
 CLIENT_RWND = 20
 TIMEOUT = 1.0
 RECV_BUFFER = BUFFER_SIZE
@@ -45,7 +45,7 @@ def start_client():
 
         #
         # Has the server ACKed the first SYN?
-        if flags & SYN_FLAG and flags & ACK_FLAG:
+        if (flags & SYN_FLAG) and (flags & ACK_FLAG):
             print("Received SYN-ACK. Connection is open.")
 
             # Step 3: send final ACK
@@ -89,7 +89,7 @@ def start_client():
         #
         r_seq, r_ack, r_flags, r_rwnd, r_payload = packet
         #
-        if r_flags & ACK_FLAG:
+        if (r_flags & ACK_FLAG):
             print(f"← ACK for seq = {r_ack}")
             send_base = r_ack + 1
 
@@ -143,7 +143,7 @@ def start_client():
 
         seq, ack, flags, recv_rwnd, payload = packet
 
-        if flags & FIN_FLAG:
+        if (flags & FIN_FLAG):
             print("Received server Fin")
             break
 

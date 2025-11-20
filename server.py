@@ -36,6 +36,7 @@ def start_server():
         while True:
             try:
                 data, addr = sock.recvfrom(RECV_BUFFER)
+                print("Got a packet")
 
             except socket.timeout:
                 continue
@@ -68,6 +69,7 @@ def start_server():
                     # Set up the connection
                     connected = True
                     expected_seq = 0
+                    has_syn = False
                     continue
 
                 #
@@ -100,7 +102,7 @@ def start_server():
 
                 ack_pkt = create_packet(0, expected_seq - 1, ACK_FLAG, rwnd, b"")
                 sock.sendto(ack_pkt, addr)
-
+                
     except KeyboardInterrupt:
         print("\n[SERVER] Ctrl-C received. Shutting down...")
         sock.close()
