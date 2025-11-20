@@ -13,18 +13,20 @@ connected = False
 client_addr = None
 has_syn = False
 has_fin = False
+total_message = ""
 
 def reset_connection():
-    global expected_seq, rwnd, connected, client_addr, has_syn, has_fin
+    global expected_seq, rwnd, connected, client_addr, has_syn, has_fin, total_message
     expected_seq = 0
     rwnd = 10
     connected = False
     client_addr = None
     has_syn = False
     has_fin = False
+    total_message = ""
 
 def start_server():
-    global expected_seq, rwnd, connected, client_addr, has_syn, has_fin
+    global expected_seq, rwnd, connected, client_addr, has_syn, has_fin, total_message
     #
     # set up UDP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -36,7 +38,6 @@ def start_server():
         while True:
             try:
                 data, addr = sock.recvfrom(RECV_BUFFER)
-                print("Got a packet")
 
             except socket.timeout:
                 continue
@@ -55,7 +56,7 @@ def start_server():
 
             if not connected:
 
-                if flags & SYN_FLAG: # first part in 3-way handshake
+                if (flags & SYN_FLAG): # first part in 3-way handshake
                     print(f"SYN received from {addr}. Connected (1/2)")
                     return_ack = create_packet(0, seq + 1, ACK_FLAG | SYN_FLAG, rwnd, b"")
                     sock.sendto(return_ack, addr)
@@ -63,7 +64,7 @@ def start_server():
                     client_addr = addr
                     continue
 
-                if has_syn and flags & ACK_FLAG: # finished opening connection
+                if has_syn and (flags & ACK_FLAG): # finished opening connection
                     print(f"ACK received from {addr}. Connected (2/2)")
                     #
                     # Set up the connection
@@ -76,7 +77,7 @@ def start_server():
                 # If we get here just ignore the packet
                 continue
         
-            if not has_fin and flags & FIN_FLAG:
+            if not has_fin and (flags & FIN_FLAG):
                 has_fin = True
                 print("FIN received.  Closing (1/2)")
                 fin_ack = create_packet(0, seq + 1, ACK_FLAG, rwnd, b"")
@@ -86,25 +87,27 @@ def start_server():
                 sock.sendto(fin_msg, addr)
                 continue
 
-            if has_fin and flags & ACK_FLAG:
-                print("Closing (2/2)")
+            if has_fin and (flags & ACK_FLAG):
+                print(f"Closing (2/2)\nfinal message is: \"{total_message}\"")
                 reset_connection()
                 continue
 
             #
             # Indicates this is a data message
-            if flags & DATA_FLAG:
+            if (flags & DATA_FLAG):
                 if seq == expected_seq:
-                    print(f"Received (seq, data): {seq}, data={payload.decode(errors='ignore')}")
+                    msg = payload.decode(errors='ignore')
+                    total_message += msg
+                    print(f"Received (seq, data): {seq}, data={msg}")
                     expected_seq += 1
                 else:
                     print(f"WARNING: Out of order. Expected: {expected_seq}, Received: {seq})")
 
                 ack_pkt = create_packet(0, expected_seq - 1, ACK_FLAG, rwnd, b"")
                 sock.sendto(ack_pkt, addr)
-                
+
     except KeyboardInterrupt:
-        print("\n[SERVER] Ctrl-C received. Shutting down...")
+        print("\n\nShutting down...")
         sock.close()
 
 if __name__ == "__main__":

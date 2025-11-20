@@ -90,7 +90,7 @@ def start_client():
         r_seq, r_ack, r_flags, r_rwnd, r_payload = packet
         #
         if (r_flags & ACK_FLAG):
-            print(f"← ACK for seq = {r_ack}")
+            print(f"\tACKed seq = {r_ack}")
             send_base = r_ack + 1
 
             if send_base == next_seq:
