@@ -20,7 +20,7 @@ def compute_checksum(data):
     checksum = 0
     #
     for i in range(0, len(data), 2):
-            add = (data[i] << 8)
+        add = (data[i] << 8)
         if i + 1 < len(data):
             add |= data[i+1]
 
@@ -33,7 +33,7 @@ def compute_checksum(data):
 
 def create_packet(seq, ack, flags, rwnd, payload):
     header_field = struct.pack("!IIBHH", seq, ack, flags, rwnd, len(payload))
-    checksum_field = compute_checksum(header + payload)
+    checksum_field = compute_checksum(header_field + payload)
     #
     return header_field + struct.pack("!H", checksum_field) + payload
 

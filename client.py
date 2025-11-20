@@ -26,7 +26,7 @@ def start_client():
     #
     # send the Syn packet
     syn_packet = create_packet(0, 0, SYN_FLAG, CLIENT_RWND, b"")
-    unreliable_send(sock, syn_packet, SERVER_ADDR)
+    sock.sendto(syn_packet, SERVER_ADDR)
     print("Sent SYN")
 
     while not connected:
@@ -34,7 +34,7 @@ def start_client():
             data, addr = sock.recvfrom(RECV_BUFFER)
         except socket.timeout:
             print("Timed out while waiting for SYN-ACK. resending SYN")
-            unreliable_send(sock, syn_packet, SERVER_ADDR)
+            sock.sendto(syn_packet, SERVER_ADDR)
             continue
 
         packet = parse_packet(data)
@@ -50,7 +50,7 @@ def start_client():
 
             # Step 3: send final ACK
             final_connection_ack = create_packet(0, seq + 1, ACK_FLAG, CLIENT_RWND, b"")
-            unreliable_send(sock, final_connection_ack, SERVER_ADDR)
+            sock.sendto(final_connection_ack, SERVER_ADDR)
             print("Sent fianl connection ACK")
 
             connected = True
@@ -69,7 +69,7 @@ def start_client():
         # Send current DATA packet
         while next_seq < send_base + window_size and next_seq < len(messages):
             pkt = create_packet(next_seq, 0, DATA_FLAG, CLIENT_RWND, messages[next_seq])
-            unreliable_send(sock, pkt, SERVER_ADDR)
+            sock.sendto(pkt, SERVER_ADDR)
             print(f"Sent data: \"{messages[next_seq]}\", with seq:{next_seq}")
             next_seq += 1
         #
@@ -81,7 +81,7 @@ def start_client():
             print("Timeout waiting for ACK; resending window")
             for r in range(send_base, next_seq):
                 packet = create_packet(r, 0, DATA_FLAG, CLIENT_RWND, messages[r])
-                unreliable_send(sock, packet, SERVER_ADDR)
+                sock.sendto(packet, SERVER_ADDR)
         #
         packet = parse_packet(data)
         if not packet:
@@ -104,7 +104,7 @@ def start_client():
     #
     # Send fin packet to start closing
     fin_packet = create_packet(0, 0, FIN_FLAG, CLIENT_RWND, b"")
-    unreliable_send(sock, fin_packet, SERVER_ADDR)
+    sock.sendto(fin_packet, SERVER_ADDR)
     print("Sent FIN")
     fin_sent = True
 
@@ -115,7 +115,7 @@ def start_client():
             data, addr = sock.recvfrom(RECV_BUFFER)
         except socket.timeout:
             print("Timed out while waiting for server's FIN-ACK. resending FIN message")
-            unreliable_send(sock, fin_packet, SERVER_ADDR)
+            sock.sendto(fin_packet, SERVER_ADDR)
             continue
 
         #
@@ -149,7 +149,7 @@ def start_client():
 
     # Step 4: final ACK back to server
     final_ack = create_packet(0, seq + 1, ACK_FLAG, CLIENT_RWND, b"")
-    unreliable_send(sock, final_ack, SERVER_ADDR)
+    sock.sendto(final_ack, SERVER_ADDR)
     print("Sent final ACK\n Connection Closed")
 
     return
