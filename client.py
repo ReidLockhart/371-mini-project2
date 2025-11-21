@@ -186,7 +186,7 @@ def start_client():
     print("Sent final ACK\nConnection Closed")
 
     # graph the 
-    graph_cwnd(cwnd_data)
+    # graph_cwnd(cwnd_data)
 
     return
 
