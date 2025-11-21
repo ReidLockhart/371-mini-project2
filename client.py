@@ -2,13 +2,14 @@ import socket
 import time
 from util import *
 import random
+import matplotlib.pyplot as plt
 
 SERVER_ADDR = (SERVER_IP, SERVER_PORT)
 CLIENT_RWND = 20
 TIMEOUT = 1.0
 RECV_BUFFER = BUFFER_SIZE
-DATA_FILENAME = 'alphabet.txt'
-
+PAYLOAD_SIZE = 64
+DATA_FILENAME = 'jesus.txt'
 
 def start_client():
 
@@ -20,8 +21,10 @@ def start_client():
 
     send_base = 0
     next_seq = 0
-    cwnd = 12 # to start
+    cwnd = 4 # to start
     threshold = 32 # random value to start
+
+    cwnd_data = [1]
 
     print("Client started.")
 
@@ -67,8 +70,8 @@ def start_client():
     messages = []
     try:
         with open(DATA_FILENAME, "r") as f:
-            text = f.read()
-            messages = [word.encode('utf-8') for word in text.split()]
+            data = f.read()
+            messages = [(data[i:i+PAYLOAD_SIZE]).encode('utf-8', errors='replace') for i in range(0, len(data), PAYLOAD_SIZE)]
     except Exception as e:
         print("Error reading file: ", e)
         print("Closing client")
@@ -76,11 +79,12 @@ def start_client():
         return
 
     while send_base < len(messages):
+        cwnd_data.append(cwnd)
         #
         # Send current DATA packet
         while next_seq < send_base + min(int(cwnd), CLIENT_RWND) and next_seq < len(messages):
             pkt = create_packet(next_seq, 0, DATA_FLAG, CLIENT_RWND, messages[next_seq])
-            if random.randint(1,100) > 5:
+            if random.randint(1,100) > 7:
                 sock.sendto(pkt, SERVER_ADDR)
                 sent = messages[next_seq].decode('utf-8')
             print(f"Sent data: '{sent}', with seq: {next_seq}")
@@ -114,7 +118,7 @@ def start_client():
             if cwnd < threshold:
                 cwnd += 1
             else:
-                cwnd += 1 / cwnd
+                cwnd += 0.25
             #
             send_base = r_ack + 1
             if send_base == next_seq:
@@ -181,8 +185,17 @@ def start_client():
     sock.sendto(final_ack, SERVER_ADDR)
     print("Sent final ACK\nConnection Closed")
 
+    # graph the 
+    graph_cwnd(cwnd_data)
+
     return
 
+def graph_cwnd(data):
+    plt.plot(data)
+    plt.xlabel("ACK number")
+    plt.ylabel("cwnd size")
+    plt.title("Congestion Window (cwnd) Growth Over Time")
+    plt.show()
 
 if __name__ == "__main__":
     start_client()
