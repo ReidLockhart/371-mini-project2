@@ -5,11 +5,10 @@ import random
 import matplotlib.pyplot as plt
 
 SERVER_ADDR = (SERVER_IP, SERVER_PORT)
-CLIENT_RWND = 20
+CLIENT_RWND = 24
 TIMEOUT = 1.0
-RECV_BUFFER = BUFFER_SIZE
 PAYLOAD_SIZE = 64
-DATA_FILENAME = 'jesus.txt'
+DATA_FILENAME = 'protocol.txt'
 
 def start_client():
 
@@ -24,7 +23,10 @@ def start_client():
     cwnd = 4 # to start
     threshold = 32 # random value to start
 
+    server_rwnd = float('inf')
+
     cwnd_data = [1]
+    rwnd_data = [0]
 
     print("Client started.")
 
@@ -36,7 +38,7 @@ def start_client():
 
     while not connected:
         try:
-            data, addr = sock.recvfrom(RECV_BUFFER)
+            data, addr = sock.recvfrom(1024)
         except socket.timeout:
             print("Timed out while waiting for SYN-ACK. resending SYN")
             sock.sendto(syn_packet, SERVER_ADDR)
@@ -46,7 +48,9 @@ def start_client():
         if not packet:
             continue
 
-        seq, ack, flags, server_rwnd, payload = packet
+        seq, ack, flags, new_server_rwnd, payload = packet
+
+        server_rwnd = new_server_rwnd
 
         #
         # Has the server ACKed the first SYN?
@@ -80,11 +84,12 @@ def start_client():
 
     while send_base < len(messages):
         cwnd_data.append(cwnd)
+        rwnd_data.append(server_rwnd)
         #
         # Send current DATA packet
-        while next_seq < send_base + min(int(cwnd), CLIENT_RWND) and next_seq < len(messages):
+        while next_seq < send_base + max(1, int(min(int(cwnd), server_rwnd))) and next_seq < len(messages):
             pkt = create_packet(next_seq, 0, DATA_FLAG, CLIENT_RWND, messages[next_seq])
-            if random.randint(1,100) > 7:
+            if random.randint(1,100) > 2:
                 sock.sendto(pkt, SERVER_ADDR)
                 sent = messages[next_seq].decode('utf-8')
             print(f"Sent data: '{sent}', with seq: {next_seq}")
@@ -93,7 +98,7 @@ def start_client():
         # Wait for ACK
         sock.settimeout(TIMEOUT)
         try:
-            data, addr = sock.recvfrom(RECV_BUFFER)
+            data, addr = sock.recvfrom(1024)
         except socket.timeout:
             print("-----\nTimeout waiting for ACK; resending window\n-----")
             #
@@ -112,7 +117,9 @@ def start_client():
         r_seq, r_ack, r_flags, r_rwnd, r_payload = packet
         #
         if (r_flags & ACK_FLAG):
-            #print(f"\tACKed seq = {r_ack}")
+            #
+            # Adjust server rwnd
+            server_rwnd = r_rwnd
             #
             # Adjust cwnd
             if cwnd < threshold:
@@ -140,7 +147,7 @@ def start_client():
     # Wait for server to send ack
     while True:
         try:
-            data, addr = sock.recvfrom(RECV_BUFFER)
+            data, addr = sock.recvfrom(1024)
         except socket.timeout:
             print("Timed out while waiting for server's FIN-ACK. resending FIN message")
             sock.sendto(fin_packet, SERVER_ADDR)
@@ -165,7 +172,7 @@ def start_client():
 
     while True:
         try:
-            data, addr = sock.recvfrom(RECV_BUFFER)
+            data, addr = sock.recvfrom(1024)
         except socket.timeout:
             print("Waiting for server FIN")
             continue
@@ -186,15 +193,22 @@ def start_client():
     print("Sent final ACK\nConnection Closed")
 
     # graph the 
-    # graph_cwnd(cwnd_data)
-
+    graph_cwnd(cwnd_data)
+    graph_rwnd(rwnd_data)
     return
 
 def graph_cwnd(data):
     plt.plot(data)
     plt.xlabel("ACK number")
     plt.ylabel("cwnd size")
-    plt.title("Congestion Window (cwnd) Growth Over Time")
+    plt.title("Congestion Window (cwnd) Size Over Time")
+    plt.show()
+
+def graph_rwnd(data):
+    plt.plot(data)
+    plt.xlabel("ACK number")
+    plt.ylabel("server rwnd size")
+    plt.title("Server Buffer Window (rwnd) wnd Size Over Time")
     plt.show()
 
 if __name__ == "__main__":

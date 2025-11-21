@@ -7,4 +7,3 @@ Each packet features a simple checksum, which is the one's complement of summing
 In terms of congestion avoidance, our protocol has two simple phases. In the first phase, it ramps up sending until a loss occurs. Cwnd starts at 1, and increases by 1 with every ACK until it hits the threshold. The threshold is equal to the cwnd where a loss previously occurred. Once cwnd reaches the threshold, it increases slowly by a rate of 1/cwnd per ACK. This will hopefully mean that we can keep a cwnd that is near the threshold for long periods of time without crossing it and producing a loss. 
 
 To ensure the sender isn't sending too many packets, the connection ACK from the receiver includes rwnd, which is the buffer space it has to store packets. The sender will set its window size to the minimum of rwnd and cwnd so that the buffer won't overflow. 
-

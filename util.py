@@ -2,7 +2,6 @@ import struct
 import random
 import time
 
-BUFFER_SIZE = 4096
 SERVER_IP = '127.0.0.1'
 SERVER_PORT = 8080
 
