@@ -96,7 +96,7 @@ def start_server():
             # Indicates this is a data message
             if (flags & DATA_FLAG):
                 if seq == expected_seq:
-                    msg = payload.decode(errors='ignore')
+                    msg = payload.decode('utf-8')
                     total_message += msg
                     print(f"Received (seq, data): {seq}, data={msg}")
                     expected_seq += 1

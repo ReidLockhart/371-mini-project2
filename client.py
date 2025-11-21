@@ -1,17 +1,18 @@
 import socket
 import time
 from util import *
+import random
 
 SERVER_ADDR = (SERVER_IP, SERVER_PORT)
 CLIENT_RWND = 20
 TIMEOUT = 1.0
 RECV_BUFFER = BUFFER_SIZE
+DATA_FILENAME = 'alphabet.txt'
 
 
 def start_client():
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    sock.settimeout(5.0)
 
     connected = False
     has_fin = False
@@ -19,7 +20,8 @@ def start_client():
 
     send_base = 0
     next_seq = 0
-    window_size = 4
+    cwnd = 12 # to start
+    threshold = 32 # random value to start
 
     print("Client started.")
 
@@ -62,15 +64,26 @@ def start_client():
     #   --------------------
     #
 
-    messages = [b"hello", b"World", b"!", b"This", b"is", b"a test."]
+    messages = []
+    try:
+        with open(DATA_FILENAME, "r") as f:
+            text = f.read()
+            messages = [word.encode('utf-8') for word in text.split()]
+    except Exception as e:
+        print("Error reading file: ", e)
+        print("Closing client")
+        sock.close()
+        return
 
     while send_base < len(messages):
         #
         # Send current DATA packet
-        while next_seq < send_base + window_size and next_seq < len(messages):
+        while next_seq < send_base + min(int(cwnd), CLIENT_RWND) and next_seq < len(messages):
             pkt = create_packet(next_seq, 0, DATA_FLAG, CLIENT_RWND, messages[next_seq])
-            sock.sendto(pkt, SERVER_ADDR)
-            print(f"Sent data: \"{messages[next_seq]}\", with seq:{next_seq}")
+            if random.randint(1,100) > 5:
+                sock.sendto(pkt, SERVER_ADDR)
+                sent = messages[next_seq].decode('utf-8')
+            print(f"Sent data: '{sent}', with seq: {next_seq}")
             next_seq += 1
         #
         # Wait for ACK
@@ -78,10 +91,15 @@ def start_client():
         try:
             data, addr = sock.recvfrom(RECV_BUFFER)
         except socket.timeout:
-            print("Timeout waiting for ACK; resending window")
+            print("-----\nTimeout waiting for ACK; resending window\n-----")
+            #
+            # reset cwnd and set threshold to what it was before failure
+            threshold = max(int(cwnd / 2), 1)
+            cwnd = 1
             for r in range(send_base, next_seq):
                 packet = create_packet(r, 0, DATA_FLAG, CLIENT_RWND, messages[r])
                 sock.sendto(packet, SERVER_ADDR)
+            continue
         #
         packet = parse_packet(data)
         if not packet:
@@ -90,9 +108,15 @@ def start_client():
         r_seq, r_ack, r_flags, r_rwnd, r_payload = packet
         #
         if (r_flags & ACK_FLAG):
-            print(f"\tACKed seq = {r_ack}")
+            #print(f"\tACKed seq = {r_ack}")
+            #
+            # Adjust cwnd
+            if cwnd < threshold:
+                cwnd += 1
+            else:
+                cwnd += 1 / cwnd
+            #
             send_base = r_ack + 1
-
             if send_base == next_seq:
                 pass
 
@@ -117,6 +141,11 @@ def start_client():
             print("Timed out while waiting for server's FIN-ACK. resending FIN message")
             sock.sendto(fin_packet, SERVER_ADDR)
             continue
+        except Exception as e:
+            printf(f"Error: {e}")
+            sock.close()
+            print("Closing Client")
+
 
         #
         # got the packet
@@ -150,7 +179,7 @@ def start_client():
     # Step 4: final ACK back to server
     final_ack = create_packet(0, seq + 1, ACK_FLAG, CLIENT_RWND, b"")
     sock.sendto(final_ack, SERVER_ADDR)
-    print("Sent final ACK\n Connection Closed")
+    print("Sent final ACK\nConnection Closed")
 
     return
 

@@ -1,0 +1,10 @@
+The first phase of a connection is a 2-way handshake initiated by the sender. The sender first sends a packet with the SYN flag bit in the flags set. The receiver sees this and opens a socket for the connection before sending back an ACK so the sender knows that the connection is open. Once the sender receives the ACK, the communication begins.
+
+Our protocol uses Go-Back-N to ensure reliability. The sender keeps a set window size and a timeout. If the entire window hasn't been ACKed when the timeout runs, it re-sends the current window. The receiver's job is to send an ACK for each packet it receives so the sender can adjust the window and keep track of whether it needs to resend the window.
+
+Each packet features a simple checksum, which is the one's complement of summing the sequence number, back number, payload length, receiver window, and first two bytes of the payload (if present). This provides a quick but somewhat unreliable way of seeing if any bit flips or corruption occurred during transport. 
+
+In terms of congestion avoidance, our protocol has two simple phases. In the first phase, it ramps up sending until a loss occurs. Cwnd starts at 1, and increases by 1 with every ACK until it hits the threshold. The threshold is equal to the cwnd where a loss previously occurred. Once cwnd reaches the threshold, it increases slowly by a rate of 1/cwnd per ACK. This will hopefully mean that we can keep a cwnd that is near the threshold for long periods of time without crossing it and producing a loss. 
+
+To ensure the sender isn't sending too many packets, the connection ACK from the receiver includes rwnd, which is the buffer space it has to store packets. The sender will set its window size to the minimum of rwnd and cwnd so that the buffer won't overflow. 
+
