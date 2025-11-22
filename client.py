@@ -153,7 +153,7 @@ def start_client():
             sock.sendto(fin_packet, SERVER_ADDR)
             continue
         except Exception as e:
-            printf(f"Error: {e}")
+            print(f"Error: {e}")
             sock.close()
             print("Closing Client")
 
