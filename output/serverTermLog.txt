@@ -1,0 +1,788 @@
+Server listening on port 8080
+SYN received from ('127.0.0.1', 57968). Connected (1/2)
+ACK received from ('127.0.0.1', 57968). Connected (2/2)
+Received: seq = 0; data = Now the Festival of Unleavened Bread, called the Passover, was a
+WARNING: Buffer full. Discarding packet with seq = 25
+Received: seq = 1; data = pproaching, and the chief priests and the teachers of the law we
+Received: seq = 2; data = re looking for some way to get rid of Jesus, for they were afrai
+Received: seq = 3; data = d of the people. Then Satan entered Judas, called Iscariot, one
+Received: seq = 4; data = of the Twelve. And Judas went to the chief priests and the offic
+Received: seq = 5; data = ers of the temple guard and discussed with them how he might bet
+Received: seq = 6; data = ray Jesus. They were delighted and agreed to give him money. He
+Received: seq = 7; data = consented, and watched for an opportunity to hand Jesus over to
+Received: seq = 8; data = them when no crowd was present.
+
+
+Then came the day of Unleavene
+Received: seq = 9; data = d Bread on which the Passover lamb had to be sacrificed. Jesus s
+Received: seq = 10; data = ent Peter and John, saying, "Go and make preparations for us to
+Received: seq = 11; data = eat the Passover."
+
+
+"Where do you want us to prepare for it?" t
+Received: seq = 12; data = hey asked.
+
+
+He replied, "As you enter the city, a man carrying
+Received: seq = 13; data = a jar of water will meet you. Follow him to the house that he en
+Received: seq = 14; data = ters, and say to the owner of the house, 'The Teacher asks: Wher
+Received: seq = 15; data = e is the guest room, where I may eat the Passover with my discip
+Received: seq = 16; data = les?' He will show you a large room upstairs, all furnished. Mak
+Received: seq = 17; data = e preparations there."
+
+
+They left and found things just as Jesu
+Received: seq = 18; data = s had told them. So they prepared the Passover.
+
+
+When the hour
+Received: seq = 19; data = came, Jesus and his apostles reclined at the table. And he said
+Received: seq = 20; data = to them, "I have eagerly desired to eat this Passover with you b
+Received: seq = 21; data = efore I suffer. For I tell you, I will not eat it again until it
+Received: seq = 22; data =  finds fulfillment in the kingdom of God."
+
+
+After taking the cu
+Received: seq = 23; data = p, he gave thanks and said, "Take this and divide it among you.
+Received: seq = 24; data = For I tell you I will not drink again from the fruit of the vine
+WARNING: Buffer full. Discarding packet with seq = 49
+Received: seq = 25; data =  until the kingdom of God comes."
+
+
+And he took bread, gave than
+Received: seq = 26; data = ks and broke it, and gave it to them, saying, "This is my body g
+Received: seq = 27; data = iven for you; do this in remembrance of me."
+
+
+In the same way,
+Received: seq = 28; data = after the supper he took the cup, saying, "This cup is the new c
+Received: seq = 29; data = ovenant in my blood, which is poured out for you. But the hand o
+Received: seq = 30; data = f him who is going to betray me is with mine on the table. The S
+Received: seq = 31; data = on of Man will go as it has been decreed. But woe to that man wh
+Received: seq = 32; data = o betrays him!" They began to question among themselves which of
+Received: seq = 33; data =  them it might be who would do this.
+
+
+A dispute also arose amon
+Received: seq = 34; data = g them as to which of them was considered to be greatest. Jesus
+Received: seq = 35; data = said to them, "The kings of the Gentiles lord it over them; and
+Received: seq = 36; data = those who exercise authority over them call themselves Benefacto
+Received: seq = 37; data = rs. But you are not to be like that. Instead, the greatest among
+Received: seq = 38; data =  you should be like the youngest, and the one who rules like the
+Received: seq = 39; data =  one who serves. For who is greater, the one who is at the table
+Received: seq = 40; data =  or the one who serves? Is it not the one who is at the table? B
+Received: seq = 41; data = ut I am among you as one who serves. You are those who have stoo
+Received: seq = 42; data = d by me in my trials. And I confer on you a kingdom, just as my
+Received: seq = 43; data = Father conferred one on me, so that you may eat and drink at my
+Received: seq = 44; data = table in my kingdom and sit on thrones, judging the twelve tribe
+Received: seq = 45; data = s of Israel.
+
+
+"Simon, Simon, Satan has asked to sift all of you
+Received: seq = 46; data =  as wheat. But I have prayed for you, Simon, that your faith may
+Received: seq = 47; data =  not fail. And when you have turned back, strengthen your brothe
+Received: seq = 48; data = rs."
+
+
+But he replied, "Lord, I am ready to go with you to priso
+WARNING: Out of order. Expected: 67, Received: 68)
+WARNING: Out of order. Expected: 67, Received: 69)
+WARNING: Out of order. Expected: 67, Received: 70)
+WARNING: Out of order. Expected: 67, Received: 71)
+WARNING: Out of order. Expected: 67, Received: 72)
+Received: seq = 49; data = n and to death."
+
+
+Jesus answered, "I tell you, Peter, before th
+Received: seq = 50; data = e rooster crows today, you will deny three times that you know m
+Received: seq = 51; data = e."
+
+
+Then Jesus asked them, "When I sent you without purse, bag
+Received: seq = 52; data =  or sandals, did you lack anything?"
+
+
+"Nothing," they answered.
+Received: seq = 53; data =
+
+
+He said to them, "But now if you have a purse, take it, and a
+Received: seq = 54; data = lso a bag; and if you don't have a sword, sell your cloak and bu
+Received: seq = 55; data = y one. It is written: 'And he was numbered with the transgressor
+Received: seq = 56; data = s'; and I tell you that this must be fulfilled in me. Yes, what
+Received: seq = 57; data = is written about me is reaching its fulfillment."
+
+
+The disciple
+Received: seq = 58; data = s said, "See, Lord, here are two swords."
+
+
+"That's enough!" he
+Received: seq = 59; data = replied.
+
+
+Jesus went out as usual to the Mount of Olives, and h
+Received: seq = 60; data = is disciples followed him. On reaching the place, he said to the
+Received: seq = 61; data = m, "Pray that you will not fall into temptation." He withdrew ab
+Received: seq = 62; data = out a stone's throw beyond them, knelt down and prayed, "Father,
+Received: seq = 63; data =  if you are willing, take this cup from me; yet not my will, but
+Received: seq = 64; data =  yours be done." An angel from heaven appeared to him and streng
+Received: seq = 65; data = thened him. And being in anguish, he prayed more earnestly, and
+Received: seq = 66; data = his sweat was like drops of blood falling to the ground.
+
+
+When
+Received: seq = 67; data = he rose from prayer and went back to the disciples, he found the
+Received: seq = 68; data = m asleep, exhausted from sorrow. "Why are you sleeping?" he aske
+Received: seq = 69; data = d them. "Get up and pray so that you will not fall into temptati
+Received: seq = 70; data = on."
+
+
+While he was still speaking a crowd came up, and the man
+Received: seq = 71; data = who was called Judas, one of the Twelve, was leading them. He ap
+Received: seq = 72; data = proached Jesus to kiss him, but Jesus asked him, "Judas, are you
+Received: seq = 73; data =  betraying the Son of Man with a kiss?"
+
+
+When Jesus' followers
+Received: seq = 74; data = saw what was going to happen, they said, "Lord, should we strike
+Received: seq = 75; data =  with our swords?" And one of them struck the servant of the hig
+Received: seq = 76; data = h priest, cutting off his right ear.
+
+
+But Jesus answered, "No m
+Received: seq = 77; data = ore of this!" And he touched the man's ear and healed him.
+
+
+The
+Received: seq = 78; data = n Jesus said to the chief priests, the officers of the temple gu
+Received: seq = 79; data = ard, and the elders, who had come for him, "Am I leading a rebel
+Received: seq = 80; data = lion, that you have come with swords and clubs? Every day I was
+Received: seq = 81; data = with you in the temple courts, and you did not lay a hand on me.
+Received: seq = 82; data =  But this is your hour-when darkness reigns."
+
+
+Then seizing him
+Received: seq = 83; data = , they led him away and took him into the house of the high prie
+Received: seq = 84; data = st. Peter followed at a distance. And when some there had kindle
+Received: seq = 85; data = d a fire in the middle of the courtyard and had sat down togethe
+Received: seq = 86; data = r, Peter sat down with them. A servant girl saw him seated there
+Received: seq = 87; data =  in the firelight. She looked closely at him and said, "This man
+Received: seq = 88; data =  was with him."
+
+
+But he denied it. "Woman, I don't know him," h
+Received: seq = 89; data = e said.
+
+
+A little later someone else saw him and said, "You als
+WARNING: Buffer full. Discarding packet with seq = 114
+Received: seq = 90; data = o are one of them."
+
+
+"Man, I am not!" Peter replied.
+
+
+About an
+Received: seq = 91; data =  hour later another asserted, "Certainly this fellow was with hi
+Received: seq = 92; data = m, for he is a Galilean."
+
+
+Peter replied, "Man, I don't know wh
+Received: seq = 93; data = at you're talking about!" Just as he was speaking, the rooster c
+Received: seq = 94; data = rowed. The Lord turned and looked straight at Peter. Then Peter
+Received: seq = 95; data = remembered the word the Lord had spoken to him: "Before the roos
+Received: seq = 96; data = ter crows today, you will disown me three times." And he went ou
+Received: seq = 97; data = tside and wept bitterly.
+
+
+The men who were guarding Jesus began
+Received: seq = 98; data =  mocking and beating him. They blindfolded him and demanded, "Pr
+Received: seq = 99; data = ophesy! Who hit you?" And they said many other insulting things
+Received: seq = 100; data = to him.
+
+
+At daybreak the council of the elders of the people, b
+Received: seq = 101; data = oth the chief priests and the teachers of the law, met together,
+Received: seq = 102; data =  and Jesus was led before them. "If you are the Messiah," they s
+Received: seq = 103; data = aid, "tell us."
+
+
+Jesus answered, "If I tell you, you will not b
+Received: seq = 104; data = elieve me, and if I asked you, you would not answer. But from no
+Received: seq = 105; data = w on, the Son of Man will be seated at the right hand of the mig
+Received: seq = 106; data = hty God."
+
+
+They all asked, "Are you then the Son of God?"
+
+
+He
+Received: seq = 107; data = replied, "You say that I am."
+
+
+Then they said, "Why do we need
+Received: seq = 108; data = any more testimony? We have heard it from his own lips."
+
+
+Then
+Received: seq = 109; data = the whole assembly rose and led him off to Pilate. And they bega
+Received: seq = 110; data = n to accuse him, saying, "We have found this man subverting our
+Received: seq = 111; data = nation. He opposes payment of taxes to Caesar and claims to be M
+Received: seq = 112; data = essiah, a king."
+
+
+So Pilate asked Jesus, "Are you the king of t
+Received: seq = 113; data = he Jews?"
+
+
+"You have said so," Jesus replied.
+
+
+Then Pilate ann
+WARNING: Buffer full. Discarding packet with seq = 138
+Received: seq = 114; data = ounced to the chief priests and the crowd, "I find no basis for
+Received: seq = 115; data = a charge against this man."
+
+
+But they insisted, "He stirs up th
+Received: seq = 116; data = e people all over Judea by his teaching. He started in Galilee a
+Received: seq = 117; data = nd has come all the way here."
+
+
+On hearing this, Pilate asked i
+Received: seq = 118; data = f the man was a Galilean. When he learned that Jesus was under H
+Received: seq = 119; data = erod's jurisdiction, he sent him to Herod, who was also in Jerus
+Received: seq = 120; data = alem at that time.
+
+
+When Herod saw Jesus, he was greatly please
+Received: seq = 121; data = d, because for a long time he had been wanting to see him. From
+Received: seq = 122; data = what he had heard about him, he hoped to see him perform a sign
+Received: seq = 123; data = of some sort. He plied him with many questions, but Jesus gave h
+Received: seq = 124; data = im no answer. The chief priests and the teachers of the law were
+Received: seq = 125; data =  standing there, vehemently accusing him. Then Herod and his sol
+Received: seq = 126; data = diers ridiculed and mocked him. Dressing him in an elegant robe,
+Received: seq = 127; data =  they sent him back to Pilate. That day Herod and Pilate became
+Received: seq = 128; data = friends-before this they had been enemies.
+
+
+Pilate called toget
+Received: seq = 129; data = her the chief priests, the rulers and the people, and said to th
+Received: seq = 130; data = em, "You brought me this man as one who was inciting the people
+Received: seq = 131; data = to rebellion. I have examined him in your presence and have foun
+Received: seq = 132; data = d no basis for your charges against him. Neither has Herod, for
+Received: seq = 133; data = he sent him back to us; as you can see, he has done nothing to d
+Received: seq = 134; data = eserve death. Therefore, I will punish him and then release him.
+Received: seq = 135; data = "
+
+
+But the whole crowd shouted, "Away with this man! Release Ba
+Received: seq = 136; data = rabbas to us!" (Barabbas had been thrown into prison for an insu
+Received: seq = 137; data = rrection in the city, and for murder.)
+
+
+Wanting to release Jesu
+WARNING: Out of order. Expected: 146, Received: 147)
+WARNING: Out of order. Expected: 146, Received: 148)
+WARNING: Out of order. Expected: 146, Received: 149)
+WARNING: Out of order. Expected: 146, Received: 150)
+WARNING: Out of order. Expected: 146, Received: 151)
+WARNING: Out of order. Expected: 146, Received: 152)
+Received: seq = 138; data = s, Pilate appealed to them again. But they kept shouting, "Cruci
+Received: seq = 139; data = fy him! Crucify him!"
+
+
+For the third time he spoke to them: "Wh
+Received: seq = 140; data = y? What crime has this man committed? I have found in him no gro
+Received: seq = 141; data = unds for the death penalty. Therefore I will have him punished a
+Received: seq = 142; data = nd then release him."
+
+
+But with loud shouts they insistently de
+Received: seq = 143; data = manded that he be crucified, and their shouts prevailed. So Pila
+Received: seq = 144; data = te decided to grant their demand. He released the man who had be
+Received: seq = 145; data = en thrown into prison for insurrection and murder, the one they
+WARNING: Buffer full. Discarding packet with seq = 170
+Received: seq = 146; data = asked for, and surrendered Jesus to their will.
+
+
+As the soldier
+Received: seq = 147; data = s led him away, they seized Simon from Cyrene, who was on his wa
+Received: seq = 148; data = y in from the country, and put the cross on him and made him car
+Received: seq = 149; data = ry it behind Jesus. A large number of people followed him, inclu
+Received: seq = 150; data = ding women who mourned and wailed for him. Jesus turned and said
+Received: seq = 151; data =  to them, "Daughters of Jerusalem, do not weep for me; weep for
+Received: seq = 152; data = yourselves and for your children. For the time will come when yo
+Received: seq = 153; data = u will say, 'Blessed are the childless women, the wombs that nev
+Received: seq = 154; data = er bore and the breasts that never nursed!' Then
+
+
+"'they will s
+Received: seq = 155; data = ay to the mountains, "Fall on us!"
+    and to the hills, "Cover
+Received: seq = 156; data = us!"'
+
+
+For if people do these things when the tree is green, wh
+Received: seq = 157; data = at will happen when it is dry?"
+
+
+Two other men, both criminals,
+Received: seq = 158; data =  were also led out with him to be executed. When they came to th
+Received: seq = 159; data = e place called the Skull, they crucified him there, along with t
+Received: seq = 160; data = he criminals-one on his right, the other on his left. Jesus said
+Received: seq = 161; data = , "Father, forgive them, for they do not know what they are doin
+Received: seq = 162; data = g." And they divided up his clothes by casting lots.
+
+
+The peopl
+Received: seq = 163; data = e stood watching, and the rulers even sneered at him. They said,
+Received: seq = 164; data =  "He saved others; let him save himself if he is God's Messiah,
+Received: seq = 165; data = the Chosen One."
+
+
+The soldiers also came up and mocked him. The
+Received: seq = 166; data = y offered him wine vinegar and said, "If you are the king of the
+Received: seq = 167; data =  Jews, save yourself."
+
+
+There was a written notice above him, w
+Received: seq = 168; data = hich read: this is the king of the jews.
+
+
+One of the criminals
+Received: seq = 169; data = who hung there hurled insults at him: "Aren't you the Messiah? S
+WARNING: Out of order. Expected: 177, Received: 178)
+WARNING: Out of order. Expected: 177, Received: 179)
+WARNING: Out of order. Expected: 177, Received: 180)
+WARNING: Out of order. Expected: 177, Received: 181)
+WARNING: Out of order. Expected: 177, Received: 182)
+Received: seq = 170; data = ave yourself and us!"
+
+
+But the other criminal rebuked him. "Don
+Received: seq = 171; data = 't you fear God," he said, "since you are under the same sentenc
+Received: seq = 172; data = e? We are punished justly, for we are getting what our deeds des
+Received: seq = 173; data = erve. But this man has done nothing wrong."
+
+
+Then he said, "Jes
+Received: seq = 174; data = us, remember me when you come into your kingdom."
+
+
+Jesus answer
+Received: seq = 175; data = ed him, "Truly I tell you, today you will be with me in paradise
+Received: seq = 176; data = ."
+
+
+It was now about noon, and darkness came over the whole lan
+WARNING: Buffer full. Discarding packet with seq = 201
+Received: seq = 177; data = d until three in the afternoon, for the sun stopped shining. And
+Received: seq = 178; data =  the curtain of the temple was torn in two. Jesus called out wit
+Received: seq = 179; data = h a loud voice, "Father, into your hands I commit my spirit." Wh
+Received: seq = 180; data = en he had said this, he breathed his last.
+
+
+The centurion, seei
+Received: seq = 181; data = ng what had happened, praised God and said, "Surely this was a r
+Received: seq = 182; data = ighteous man." When all the people who had gathered to witness t
+Received: seq = 183; data = his sight saw what took place, they beat their breasts and went
+Received: seq = 184; data = away. But all those who knew him, including the women who had fo
+Received: seq = 185; data = llowed him from Galilee, stood at a distance, watching these thi
+Received: seq = 186; data = ngs.
+
+
+Now there was a man named Joseph, a member of the Council
+Received: seq = 187; data = , a good and upright man, who had not consented to their decisio
+Received: seq = 188; data = n and action. He came from the Judean town of Arimathea, and he
+Received: seq = 189; data = himself was waiting for the kingdom of God. Going to Pilate, he
+Received: seq = 190; data = asked for Jesus' body. Then he took it down, wrapped it in linen
+Received: seq = 191; data =  cloth and placed it in a tomb cut in the rock, one in which no
+Received: seq = 192; data = one had yet been laid. It was Preparation Day, and the Sabbath w
+Received: seq = 193; data = as about to begin.
+
+
+The women who had come with Jesus from Gali
+Received: seq = 194; data = lee followed Joseph and saw the tomb and how his body was laid i
+Received: seq = 195; data = n it. Then they went home and prepared spices and perfumes. But
+Received: seq = 196; data = they rested on the Sabbath in obedience to the commandment.
+
+
+On
+Received: seq = 197; data =  the first day of the week, very early in the morning, the women
+Received: seq = 198; data =  took the spices they had prepared and went to the tomb. They fo
+Received: seq = 199; data = und the stone rolled away from the tomb, but when they entered,
+Received: seq = 200; data = they did not find the body of the Lord Jesus. While they were wo
+WARNING: Out of order. Expected: 202, Received: 203)
+WARNING: Out of order. Expected: 202, Received: 204)
+WARNING: Out of order. Expected: 202, Received: 205)
+Received: seq = 201; data = ndering about this, suddenly two men in clothes that gleamed lik
+WARNING: Buffer full. Discarding packet with seq = 226
+Received: seq = 202; data = e lightning stood beside them. In their fright the women bowed d
+Received: seq = 203; data = own with their faces to the ground, but the men said to them, "W
+Received: seq = 204; data = hy do you look for the living among the dead? He is not here; he
+Received: seq = 205; data =  has risen! Remember how he told you, while he was still with yo
+Received: seq = 206; data = u in Galilee: 'The Son of Man must be delivered over to the hand
+Received: seq = 207; data = s of sinners, be crucified and on the third day be raised again.
+Received: seq = 208; data = ' " Then they remembered his words.
+
+
+When they came back from t
+Received: seq = 209; data = he tomb, they told all these things to the Eleven and to all the
+Received: seq = 210; data =  others. It was Mary Magdalene, Joanna, Mary the mother of James
+Received: seq = 211; data = , and the others with them who told this to the apostles. But th
+Received: seq = 212; data = ey did not believe the women, because their words seemed to them
+Received: seq = 213; data =  like nonsense. Peter, however, got up and ran to the tomb. Bend
+Received: seq = 214; data = ing over, he saw the strips of linen lying by themselves, and he
+Received: seq = 215; data =  went away, wondering to himself what had happened.
+
+
+Now that s
+Received: seq = 216; data = ame day two of them were going to a village called Emmaus, about
+Received: seq = 217; data =  seven miles from Jerusalem. They were talking with each other a
+Received: seq = 218; data = bout everything that had happened. As they talked and discussed
+Received: seq = 219; data = these things with each other, Jesus himself came up and walked a
+Received: seq = 220; data = long with them; but they were kept from recognizing him.
+
+
+He as
+Received: seq = 221; data = ked them, "What are you discussing together as you walk along?"
+
+Received: seq = 222; data =
+
+They stood still, their faces downcast. One of them, named Cle
+Received: seq = 223; data = opas, asked him, "Are you the only one visiting Jerusalem who do
+Received: seq = 224; data = es not know the things that have happened there in these days?"
+
+Received: seq = 225; data =
+
+"What things?" he asked.
+
+
+"About Jesus of Nazareth," they rep
+WARNING: Buffer full. Discarding packet with seq = 250
+Received: seq = 226; data = lied. "He was a prophet, powerful in word and deed before God an
+Received: seq = 227; data = d all the people. The chief priests and our rulers handed him ov
+Received: seq = 228; data = er to be sentenced to death, and they crucified him; but we had
+Received: seq = 229; data = hoped that he was the one who was going to redeem Israel. And wh
+Received: seq = 230; data = at is more, it is the third day since all this took place. In ad
+Received: seq = 231; data = dition, some of our women amazed us. They went to the tomb early
+Received: seq = 232; data =  this morning but didn't find his body. They came and told us th
+Received: seq = 233; data = at they had seen a vision of angels, who said he was alive. Then
+Received: seq = 234; data =  some of our companions went to the tomb and found it just as th
+Received: seq = 235; data = e women had said, but they did not see Jesus."
+
+
+He said to them
+Received: seq = 236; data = , "How foolish you are, and how slow to believe all that the pro
+Received: seq = 237; data = phets have spoken! Did not the Messiah have to suffer these thin
+Received: seq = 238; data = gs and then enter his glory?" And beginning with Moses and all t
+Received: seq = 239; data = he Prophets, he explained to them what was said in all the Scrip
+Received: seq = 240; data = tures concerning himself.
+
+
+As they approached the village to wh
+Received: seq = 241; data = ich they were going, Jesus continued on as if he were going fart
+Received: seq = 242; data = her. But they urged him strongly, "Stay with us, for it is nearl
+Received: seq = 243; data = y evening; the day is almost over." So he went in to stay with t
+Received: seq = 244; data = hem.
+
+
+When he was at the table with them, he took bread, gave t
+Received: seq = 245; data = hanks, broke it and began to give it to them. Then their eyes we
+Received: seq = 246; data = re opened and they recognized him, and he disappeared from their
+Received: seq = 247; data =  sight. They asked each other, "Were not our hearts burning with
+Received: seq = 248; data = in us while he talked with us on the road and opened the Scriptu
+Received: seq = 249; data = res to us?"
+
+
+They got up and returned at once to Jerusalem. The
+WARNING: Buffer full. Discarding packet with seq = 274
+Received: seq = 250; data = re they found the Eleven and those with them, assembled together
+Received: seq = 251; data =  and saying, "It is true! The Lord has risen and has appeared to
+Received: seq = 252; data =  Simon." Then the two told what had happened on the way, and how
+Received: seq = 253; data =  Jesus was recognized by them when he broke the bread.
+
+
+While t
+Received: seq = 254; data = hey were still talking about this, Jesus himself stood among the
+Received: seq = 255; data = m and said to them, "Peace be with you."
+
+
+They were startled an
+Received: seq = 256; data = d frightened, thinking they saw a ghost. He said to them, "Why a
+Received: seq = 257; data = re you troubled, and why do doubts rise in your minds? Look at m
+Received: seq = 258; data = y hands and my feet. It is I myself! Touch me and see; a ghost d
+Received: seq = 259; data = oes not have flesh and bones, as you see I have."
+
+
+When he had
+Received: seq = 260; data = said this, he showed them his hands and feet. And while they sti
+Received: seq = 261; data = ll did not believe it because of joy and amazement, he asked the
+Received: seq = 262; data = m, "Do you have anything here to eat?" They gave him a piece of
+Received: seq = 263; data = broiled fish, and he took it and ate it in their presence.
+
+
+He
+Received: seq = 264; data = said to them, "This is what I told you while I was still with yo
+Received: seq = 265; data = u: Everything must be fulfilled that is written about me in the
+Received: seq = 266; data = Law of Moses, the Prophets and the Psalms."
+
+
+Then he opened the
+Received: seq = 267; data = ir minds so they could understand the Scriptures. He told them,
+Received: seq = 268; data = "This is what is written: The Messiah will suffer and rise from
+Received: seq = 269; data = the dead on the third day, and repentance for the forgiveness of
+Received: seq = 270; data =  sins will be preached in his name to all nations, beginning at
+Received: seq = 271; data = Jerusalem. You are witnesses of these things. I am going to send
+Received: seq = 272; data =  you what my Father has promised; but stay in the city until you
+Received: seq = 273; data =  have been clothed with power from on high."
+
+
+When he had led t
+FIN received.  Closing (1/2)
+Closing (2/2)
+final message is: "Now the Festival of Unleavened Bread, called the Passover, was approaching, and the chief priests and the teachers of the law were looking for some way to get rid of Jesus, for they were afraid of the people. Then Satan entered Judas, called Iscariot, one of the Twelve. And Judas went to the chief priests and the officers of the temple guard and discussed with them how he might betray Jesus. They were delighted and agreed to give him money. He consented, and watched for an opportunity to hand Jesus over to them when no crowd was present.
+
+
+Then came the day of Unleavened Bread on which the Passover lamb had to be sacrificed. Jesus sent Peter and John, saying, "Go and make preparations for us to eat the Passover."
+
+
+"Where do you want us to prepare for it?" they asked.
+
+
+He replied, "As you enter the city, a man carrying a jar of water will meet you. Follow him to the house that he enters, and say to the owner of the house, 'The Teacher asks: Where is the guest room, where I may eat the Passover with my disciples?' He will show you a large room upstairs, all furnished. Make preparations there."
+
+
+They left and found things just as Jesus had told them. So they prepared the Passover.
+
+
+When the hour came, Jesus and his apostles reclined at the table. And he said to them, "I have eagerly desired to eat this Passover with you before I suffer. For I tell you, I will not eat it again until it finds fulfillment in the kingdom of God."
+
+
+After taking the cup, he gave thanks and said, "Take this and divide it among you. For I tell you I will not drink again from the fruit of the vine until the kingdom of God comes."
+
+
+And he took bread, gave thanks and broke it, and gave it to them, saying, "This is my body given for you; do this in remembrance of me."
+
+
+In the same way, after the supper he took the cup, saying, "This cup is the new covenant in my blood, which is poured out for you. But the hand of him who is going to betray me is with mine on the table. The Son of Man will go as it has been decreed. But woe to that man who betrays him!" They began to question among themselves which of them it might be who would do this.
+
+
+A dispute also arose among them as to which of them was considered to be greatest. Jesus said to them, "The kings of the Gentiles lord it over them; and those who exercise authority over them call themselves Benefactors. But you are not to be like that. Instead, the greatest among you should be like the youngest, and the one who rules like the one who serves. For who is greater, the one who is at the table or the one who serves? Is it not the one who is at the table? But I am among you as one who serves. You are those who have stood by me in my trials. And I confer on you a kingdom, just as my Father conferred one on me, so that you may eat and drink at my table in my kingdom and sit on thrones, judging the twelve tribes of Israel.
+
+
+"Simon, Simon, Satan has asked to sift all of you as wheat. But I have prayed for you, Simon, that your faith may not fail. And when you have turned back, strengthen your brothers."
+
+
+But he replied, "Lord, I am ready to go with you to prison and to death."
+
+
+Jesus answered, "I tell you, Peter, before the rooster crows today, you will deny three times that you know me."
+
+
+Then Jesus asked them, "When I sent you without purse, bag or sandals, did you lack anything?"
+
+
+"Nothing," they answered.
+
+
+He said to them, "But now if you have a purse, take it, and also a bag; and if you don't have a sword, sell your cloak and buy one. It is written: 'And he was numbered with the transgressors'; and I tell you that this must be fulfilled in me. Yes, what is written about me is reaching its fulfillment."
+
+
+The disciples said, "See, Lord, here are two swords."
+
+
+"That's enough!" he replied.
+
+
+Jesus went out as usual to the Mount of Olives, and his disciples followed him. On reaching the place, he said to them, "Pray that you will not fall into temptation." He withdrew about a stone's throw beyond them, knelt down and prayed, "Father, if you are willing, take this cup from me; yet not my will, but yours be done." An angel from heaven appeared to him and strengthened him. And being in anguish, he prayed more earnestly, and his sweat was like drops of blood falling to the ground.
+
+
+When he rose from prayer and went back to the disciples, he found them asleep, exhausted from sorrow. "Why are you sleeping?" he asked them. "Get up and pray so that you will not fall into temptation."
+
+
+While he was still speaking a crowd came up, and the man who was called Judas, one of the Twelve, was leading them. He approached Jesus to kiss him, but Jesus asked him, "Judas, are you betraying the Son of Man with a kiss?"
+
+
+When Jesus' followers saw what was going to happen, they said, "Lord, should we strike with our swords?" And one of them struck the servant of the high priest, cutting off his right ear.
+
+
+But Jesus answered, "No more of this!" And he touched the man's ear and healed him.
+
+
+Then Jesus said to the chief priests, the officers of the temple guard, and the elders, who had come for him, "Am I leading a rebellion, that you have come with swords and clubs? Every day I was with you in the temple courts, and you did not lay a hand on me. But this is your hour-when darkness reigns."
+
+
+Then seizing him, they led him away and took him into the house of the high priest. Peter followed at a distance. And when some there had kindled a fire in the middle of the courtyard and had sat down together, Peter sat down with them. A servant girl saw him seated there in the firelight. She looked closely at him and said, "This man was with him."
+
+
+But he denied it. "Woman, I don't know him," he said.
+
+
+A little later someone else saw him and said, "You also are one of them."
+
+
+"Man, I am not!" Peter replied.
+
+
+About an hour later another asserted, "Certainly this fellow was with him, for he is a Galilean."
+
+
+Peter replied, "Man, I don't know what you're talking about!" Just as he was speaking, the rooster crowed. The Lord turned and looked straight at Peter. Then Peter remembered the word the Lord had spoken to him: "Before the rooster crows today, you will disown me three times." And he went outside and wept bitterly.
+
+
+The men who were guarding Jesus began mocking and beating him. They blindfolded him and demanded, "Prophesy! Who hit you?" And they said many other insulting things to him.
+
+
+At daybreak the council of the elders of the people, both the chief priests and the teachers of the law, met together, and Jesus was led before them. "If you are the Messiah," they said, "tell us."
+
+
+Jesus answered, "If I tell you, you will not believe me, and if I asked you, you would not answer. But from now on, the Son of Man will be seated at the right hand of the mighty God."
+
+
+They all asked, "Are you then the Son of God?"
+
+
+He replied, "You say that I am."
+
+
+Then they said, "Why do we need any more testimony? We have heard it from his own lips."
+
+
+Then the whole assembly rose and led him off to Pilate. And they began to accuse him, saying, "We have found this man subverting our nation. He opposes payment of taxes to Caesar and claims to be Messiah, a king."
+
+
+So Pilate asked Jesus, "Are you the king of the Jews?"
+
+
+"You have said so," Jesus replied.
+
+
+Then Pilate announced to the chief priests and the crowd, "I find no basis for a charge against this man."
+
+
+But they insisted, "He stirs up the people all over Judea by his teaching. He started in Galilee and has come all the way here."
+
+
+On hearing this, Pilate asked if the man was a Galilean. When he learned that Jesus was under Herod's jurisdiction, he sent him to Herod, who was also in Jerusalem at that time.
+
+
+When Herod saw Jesus, he was greatly pleased, because for a long time he had been wanting to see him. From what he had heard about him, he hoped to see him perform a sign of some sort. He plied him with many questions, but Jesus gave him no answer. The chief priests and the teachers of the law were standing there, vehemently accusing him. Then Herod and his soldiers ridiculed and mocked him. Dressing him in an elegant robe, they sent him back to Pilate. That day Herod and Pilate became friends-before this they had been enemies.
+
+
+Pilate called together the chief priests, the rulers and the people, and said to them, "You brought me this man as one who was inciting the people to rebellion. I have examined him in your presence and have found no basis for your charges against him. Neither has Herod, for he sent him back to us; as you can see, he has done nothing to deserve death. Therefore, I will punish him and then release him."
+
+
+But the whole crowd shouted, "Away with this man! Release Barabbas to us!" (Barabbas had been thrown into prison for an insurrection in the city, and for murder.)
+
+
+Wanting to release Jesus, Pilate appealed to them again. But they kept shouting, "Crucify him! Crucify him!"
+
+
+For the third time he spoke to them: "Why? What crime has this man committed? I have found in him no grounds for the death penalty. Therefore I will have him punished and then release him."
+
+
+But with loud shouts they insistently demanded that he be crucified, and their shouts prevailed. So Pilate decided to grant their demand. He released the man who had been thrown into prison for insurrection and murder, the one they asked for, and surrendered Jesus to their will.
+
+
+As the soldiers led him away, they seized Simon from Cyrene, who was on his way in from the country, and put the cross on him and made him carry it behind Jesus. A large number of people followed him, including women who mourned and wailed for him. Jesus turned and said to them, "Daughters of Jerusalem, do not weep for me; weep for yourselves and for your children. For the time will come when you will say, 'Blessed are the childless women, the wombs that never bore and the breasts that never nursed!' Then
+
+
+"'they will say to the mountains, "Fall on us!"
+    and to the hills, "Cover us!"'
+
+
+For if people do these things when the tree is green, what will happen when it is dry?"
+
+
+Two other men, both criminals, were also led out with him to be executed. When they came to the place called the Skull, they crucified him there, along with the criminals-one on his right, the other on his left. Jesus said, "Father, forgive them, for they do not know what they are doing." And they divided up his clothes by casting lots.
+
+
+The people stood watching, and the rulers even sneered at him. They said, "He saved others; let him save himself if he is God's Messiah, the Chosen One."
+
+
+The soldiers also came up and mocked him. They offered him wine vinegar and said, "If you are the king of the Jews, save yourself."
+
+
+There was a written notice above him, which read: this is the king of the jews.
+
+
+One of the criminals who hung there hurled insults at him: "Aren't you the Messiah? Save yourself and us!"
+
+
+But the other criminal rebuked him. "Don't you fear God," he said, "since you are under the same sentence? We are punished justly, for we are getting what our deeds deserve. But this man has done nothing wrong."
+
+
+Then he said, "Jesus, remember me when you come into your kingdom."
+
+
+Jesus answered him, "Truly I tell you, today you will be with me in paradise."
+
+
+It was now about noon, and darkness came over the whole land until three in the afternoon, for the sun stopped shining. And the curtain of the temple was torn in two. Jesus called out with a loud voice, "Father, into your hands I commit my spirit." When he had said this, he breathed his last.
+
+
+The centurion, seeing what had happened, praised God and said, "Surely this was a righteous man." When all the people who had gathered to witness this sight saw what took place, they beat their breasts and went away. But all those who knew him, including the women who had followed him from Galilee, stood at a distance, watching these things.
+
+
+Now there was a man named Joseph, a member of the Council, a good and upright man, who had not consented to their decision and action. He came from the Judean town of Arimathea, and he himself was waiting for the kingdom of God. Going to Pilate, he asked for Jesus' body. Then he took it down, wrapped it in linen cloth and placed it in a tomb cut in the rock, one in which no one had yet been laid. It was Preparation Day, and the Sabbath was about to begin.
+
+
+The women who had come with Jesus from Galilee followed Joseph and saw the tomb and how his body was laid in it. Then they went home and prepared spices and perfumes. But they rested on the Sabbath in obedience to the commandment.
+
+
+On the first day of the week, very early in the morning, the women took the spices they had prepared and went to the tomb. They found the stone rolled away from the tomb, but when they entered, they did not find the body of the Lord Jesus. While they were wondering about this, suddenly two men in clothes that gleamed like lightning stood beside them. In their fright the women bowed down with their faces to the ground, but the men said to them, "Why do you look for the living among the dead? He is not here; he has risen! Remember how he told you, while he was still with you in Galilee: 'The Son of Man must be delivered over to the hands of sinners, be crucified and on the third day be raised again.' " Then they remembered his words.
+
+
+When they came back from the tomb, they told all these things to the Eleven and to all the others. It was Mary Magdalene, Joanna, Mary the mother of James, and the others with them who told this to the apostles. But they did not believe the women, because their words seemed to them like nonsense. Peter, however, got up and ran to the tomb. Bending over, he saw the strips of linen lying by themselves, and he went away, wondering to himself what had happened.
+
+
+Now that same day two of them were going to a village called Emmaus, about seven miles from Jerusalem. They were talking with each other about everything that had happened. As they talked and discussed these things with each other, Jesus himself came up and walked along with them; but they were kept from recognizing him.
+
+
+He asked them, "What are you discussing together as you walk along?"
+
+
+They stood still, their faces downcast. One of them, named Cleopas, asked him, "Are you the only one visiting Jerusalem who does not know the things that have happened there in these days?"
+
+
+"What things?" he asked.
+
+
+"About Jesus of Nazareth," they replied. "He was a prophet, powerful in word and deed before God and all the people. The chief priests and our rulers handed him over to be sentenced to death, and they crucified him; but we had hoped that he was the one who was going to redeem Israel. And what is more, it is the third day since all this took place. In addition, some of our women amazed us. They went to the tomb early this morning but didn't find his body. They came and told us that they had seen a vision of angels, who said he was alive. Then some of our companions went to the tomb and found it just as the women had said, but they did not see Jesus."
+
+
+He said to them, "How foolish you are, and how slow to believe all that the prophets have spoken! Did not the Messiah have to suffer these things and then enter his glory?" And beginning with Moses and all the Prophets, he explained to them what was said in all the Scriptures concerning himself.
+
+
+As they approached the village to which they were going, Jesus continued on as if he were going farther. But they urged him strongly, "Stay with us, for it is nearly evening; the day is almost over." So he went in to stay with them.
+
+
+When he was at the table with them, he took bread, gave thanks, broke it and began to give it to them. Then their eyes were opened and they recognized him, and he disappeared from their sight. They asked each other, "Were not our hearts burning within us while he talked with us on the road and opened the Scriptures to us?"
+
+
+They got up and returned at once to Jerusalem. There they found the Eleven and those with them, assembled together and saying, "It is true! The Lord has risen and has appeared to Simon." Then the two told what had happened on the way, and how Jesus was recognized by them when he broke the bread.
+
+
+While they were still talking about this, Jesus himself stood among them and said to them, "Peace be with you."
+
+
+They were startled and frightened, thinking they saw a ghost. He said to them, "Why are you troubled, and why do doubts rise in your minds? Look at my hands and my feet. It is I myself! Touch me and see; a ghost does not have flesh and bones, as you see I have."
+
+
+When he had said this, he showed them his hands and feet. And while they still did not believe it because of joy and amazement, he asked them, "Do you have anything here to eat?" They gave him a piece of broiled fish, and he took it and ate it in their presence.
+
+
+He said to them, "This is what I told you while I was still with you: Everything must be fulfilled that is written about me in the Law of Moses, the Prophets and the Psalms."
+
+
+Then he opened their minds so they could understand the Scriptures. He told them, "This is what is written: The Messiah will suffer and rise from the dead on the third day, and repentance for the forgiveness of sins will be preached in his name to all nations, beginning at Jerusalem. You are witnesses of these things. I am going to send you what my Father has promised; but stay in the city until you have been clothed with power from on high."
+
+
+When he had led them out to the vicinity of Bethany, he lifted up his hands and blessed them. While he was blessing them, he left them and was taken up into heaven. Then they worshiped him and returned to Jerusalem with great joy. And they stayed continually at the temple, praising God."
+
+
+Shutting down...
+PS C:\workspace\SFUschool\cmpt371\371-mini-project2>

@@ -1,4 +1,4 @@
-The first phase of a connection is a 2-way handshake initiated by the sender. The sender first sends a packet with the SYN flag bit in the flags set. The receiver sees this and opens a socket for the connection before sending back an ACK so the sender knows that the connection is open. Once the sender receives the ACK, the communication begins.
+The first phase of a connection is a 3-way handshake initiated by the sender. The sender first sends a packet with the SYN flag bit in the flags set. The receiver sees this and opens a socket for the connection before sending back an ACK so the sender knows that the connection is open. Once the sender receives the ACK, the communication begins.
 
 Our protocol uses Go-Back-N to ensure reliability. The sender keeps a set window size and a timeout. If the entire window hasn't been ACKed when the timeout runs, it re-sends the current window. The receiver's job is to send an ACK for each packet it receives so the sender can adjust the window and keep track of whether it needs to resend the window.
 

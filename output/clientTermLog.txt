@@ -1,0 +1,576 @@
+Client started.
+Sent SYN
+Received SYN-ACK. Connection is open.
+Sent fianl connection ACK
+Sent data: 'Now the Festival of Unleavened Bread, called the Passover, was a', with seq: 0
+Sent data: 'pproaching, and the chief priests and the teachers of the law we', with seq: 1
+Sent data: 're looking for some way to get rid of Jesus, for they were afrai', with seq: 2
+Sent data: 'd of the people. Then Satan entered Judas, called Iscariot, one ', with seq: 3
+Sent data: 'of the Twelve. And Judas went to the chief priests and the offic', with seq: 4
+Sent data: 'ers of the temple guard and discussed with them how he might bet', with seq: 5
+Sent data: 'ray Jesus. They were delighted and agreed to give him money. He ', with seq: 6
+Sent data: 'consented, and watched for an opportunity to hand Jesus over to ', with seq: 7
+Sent data: 'them when no crowd was present.
+
+
+Then came the day of Unleavene', with seq: 8
+Sent data: 'd Bread on which the Passover lamb had to be sacrificed. Jesus s', with seq: 9
+Sent data: 'ent Peter and John, saying, "Go and make preparations for us to ', with seq: 10
+Sent data: 'eat the Passover."
+
+
+"Where do you want us to prepare for it?" t', with seq: 11
+Sent data: 'hey asked.
+
+
+He replied, "As you enter the city, a man carrying ', with seq: 12
+Sent data: 'a jar of water will meet you. Follow him to the house that he en', with seq: 13
+Sent data: 'ters, and say to the owner of the house, 'The Teacher asks: Wher', with seq: 14
+Sent data: 'e is the guest room, where I may eat the Passover with my discip', with seq: 15
+Sent data: 'les?' He will show you a large room upstairs, all furnished. Mak', with seq: 16
+Sent data: 'e preparations there."
+
+
+They left and found things just as Jesu', with seq: 17
+Sent data: 's had told them. So they prepared the Passover.
+
+
+When the hour ', with seq: 18
+Sent data: 'came, Jesus and his apostles reclined at the table. And he said ', with seq: 19
+Sent data: 'to them, "I have eagerly desired to eat this Passover with you b', with seq: 20
+Sent data: 'efore I suffer. For I tell you, I will not eat it again until it', with seq: 21
+Sent data: ' finds fulfillment in the kingdom of God."
+
+
+After taking the cu', with seq: 22
+Sent data: 'p, he gave thanks and said, "Take this and divide it among you. ', with seq: 23
+Sent data: 'For I tell you I will not drink again from the fruit of the vine', with seq: 24
+Sent data: ' until the kingdom of God comes."
+
+
+And he took bread, gave than', with seq: 25
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'ks and broke it, and gave it to them, saying, "This is my body g', with seq: 26
+Sent data: 'iven for you; do this in remembrance of me."
+
+
+In the same way, ', with seq: 27
+Sent data: 'after the supper he took the cup, saying, "This cup is the new c', with seq: 28
+Sent data: 'ovenant in my blood, which is poured out for you. But the hand o', with seq: 29
+Sent data: 'f him who is going to betray me is with mine on the table. The S', with seq: 30
+Sent data: 'on of Man will go as it has been decreed. But woe to that man wh', with seq: 31
+Sent data: 'o betrays him!" They began to question among themselves which of', with seq: 32
+Sent data: ' them it might be who would do this.
+
+
+A dispute also arose amon', with seq: 33
+Sent data: 'g them as to which of them was considered to be greatest. Jesus ', with seq: 34
+Sent data: 'said to them, "The kings of the Gentiles lord it over them; and ', with seq: 35
+Sent data: 'those who exercise authority over them call themselves Benefacto', with seq: 36
+Sent data: 'rs. But you are not to be like that. Instead, the greatest among', with seq: 37
+Sent data: ' you should be like the youngest, and the one who rules like the', with seq: 38
+Sent data: ' one who serves. For who is greater, the one who is at the table', with seq: 39
+Sent data: ' or the one who serves? Is it not the one who is at the table? B', with seq: 40
+Sent data: 'ut I am among you as one who serves. You are those who have stoo', with seq: 41
+Sent data: 'd by me in my trials. And I confer on you a kingdom, just as my ', with seq: 42
+Sent data: 'Father conferred one on me, so that you may eat and drink at my ', with seq: 43
+Sent data: 'table in my kingdom and sit on thrones, judging the twelve tribe', with seq: 44
+Sent data: 's of Israel.
+
+
+"Simon, Simon, Satan has asked to sift all of you', with seq: 45
+Sent data: ' as wheat. But I have prayed for you, Simon, that your faith may', with seq: 46
+Sent data: ' not fail. And when you have turned back, strengthen your brothe', with seq: 47
+Sent data: 'rs."
+
+
+But he replied, "Lord, I am ready to go with you to priso', with seq: 48
+Sent data: 'n and to death."
+
+
+Jesus answered, "I tell you, Peter, before th', with seq: 49
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'e rooster crows today, you will deny three times that you know m', with seq: 50
+Sent data: 'e."
+
+
+Then Jesus asked them, "When I sent you without purse, bag', with seq: 51
+Sent data: ' or sandals, did you lack anything?"
+
+
+"Nothing," they answered.', with seq: 52
+Sent data: '
+
+
+He said to them, "But now if you have a purse, take it, and a', with seq: 53
+Sent data: 'lso a bag; and if you don't have a sword, sell your cloak and bu', with seq: 54
+Sent data: 'y one. It is written: 'And he was numbered with the transgressor', with seq: 55
+Sent data: 's'; and I tell you that this must be fulfilled in me. Yes, what ', with seq: 56
+Sent data: 'is written about me is reaching its fulfillment."
+
+
+The disciple', with seq: 57
+Sent data: 's said, "See, Lord, here are two swords."
+
+
+"That's enough!" he ', with seq: 58
+Sent data: 'replied.
+
+
+Jesus went out as usual to the Mount of Olives, and h', with seq: 59
+Sent data: 'is disciples followed him. On reaching the place, he said to the', with seq: 60
+Sent data: 'm, "Pray that you will not fall into temptation." He withdrew ab', with seq: 61
+Sent data: 'out a stone's throw beyond them, knelt down and prayed, "Father,', with seq: 62
+Sent data: ' if you are willing, take this cup from me; yet not my will, but', with seq: 63
+Sent data: ' yours be done." An angel from heaven appeared to him and streng', with seq: 64
+Sent data: 'thened him. And being in anguish, he prayed more earnestly, and ', with seq: 65
+Sent data: 'his sweat was like drops of blood falling to the ground.
+
+
+When ', with seq: 66
+Sent data: 'his sweat was like drops of blood falling to the ground.
+
+
+When ', with seq: 67
+Sent data: 'm asleep, exhausted from sorrow. "Why are you sleeping?" he aske', with seq: 68
+Sent data: 'd them. "Get up and pray so that you will not fall into temptati', with seq: 69
+Sent data: 'on."
+
+
+While he was still speaking a crowd came up, and the man ', with seq: 70
+Sent data: 'who was called Judas, one of the Twelve, was leading them. He ap', with seq: 71
+Sent data: 'proached Jesus to kiss him, but Jesus asked him, "Judas, are you', with seq: 72
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: ' betraying the Son of Man with a kiss?"
+
+
+When Jesus' followers ', with seq: 73
+Sent data: 'saw what was going to happen, they said, "Lord, should we strike', with seq: 74
+Sent data: ' with our swords?" And one of them struck the servant of the hig', with seq: 75
+Sent data: 'h priest, cutting off his right ear.
+
+
+But Jesus answered, "No m', with seq: 76
+Sent data: 'ore of this!" And he touched the man's ear and healed him.
+
+
+The', with seq: 77
+Sent data: 'n Jesus said to the chief priests, the officers of the temple gu', with seq: 78
+Sent data: 'ard, and the elders, who had come for him, "Am I leading a rebel', with seq: 79
+Sent data: 'lion, that you have come with swords and clubs? Every day I was ', with seq: 80
+Sent data: 'with you in the temple courts, and you did not lay a hand on me.', with seq: 81
+Sent data: ' But this is your hour-when darkness reigns."
+
+
+Then seizing him', with seq: 82
+Sent data: ', they led him away and took him into the house of the high prie', with seq: 83
+Sent data: 'st. Peter followed at a distance. And when some there had kindle', with seq: 84
+Sent data: 'd a fire in the middle of the courtyard and had sat down togethe', with seq: 85
+Sent data: 'r, Peter sat down with them. A servant girl saw him seated there', with seq: 86
+Sent data: ' in the firelight. She looked closely at him and said, "This man', with seq: 87
+Sent data: ' was with him."
+
+
+But he denied it. "Woman, I don't know him," h', with seq: 88
+Sent data: 'e said.
+
+
+A little later someone else saw him and said, "You als', with seq: 89
+Sent data: 'e said.
+
+
+A little later someone else saw him and said, "You als', with seq: 90
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: ' hour later another asserted, "Certainly this fellow was with hi', with seq: 91
+Sent data: 'm, for he is a Galilean."
+
+
+Peter replied, "Man, I don't know wh', with seq: 92
+Sent data: 'at you're talking about!" Just as he was speaking, the rooster c', with seq: 93
+Sent data: 'rowed. The Lord turned and looked straight at Peter. Then Peter ', with seq: 94
+Sent data: 'remembered the word the Lord had spoken to him: "Before the roos', with seq: 95
+Sent data: 'ter crows today, you will disown me three times." And he went ou', with seq: 96
+Sent data: 'tside and wept bitterly.
+
+
+The men who were guarding Jesus began', with seq: 97
+Sent data: ' mocking and beating him. They blindfolded him and demanded, "Pr', with seq: 98
+Sent data: 'ophesy! Who hit you?" And they said many other insulting things ', with seq: 99
+Sent data: 'to him.
+
+
+At daybreak the council of the elders of the people, b', with seq: 100
+Sent data: 'oth the chief priests and the teachers of the law, met together,', with seq: 101
+Sent data: ' and Jesus was led before them. "If you are the Messiah," they s', with seq: 102
+Sent data: 'aid, "tell us."
+
+
+Jesus answered, "If I tell you, you will not b', with seq: 103
+Sent data: 'elieve me, and if I asked you, you would not answer. But from no', with seq: 104
+Sent data: 'w on, the Son of Man will be seated at the right hand of the mig', with seq: 105
+Sent data: 'hty God."
+
+
+They all asked, "Are you then the Son of God?"
+
+
+He ', with seq: 106
+Sent data: 'replied, "You say that I am."
+
+
+Then they said, "Why do we need ', with seq: 107
+Sent data: 'any more testimony? We have heard it from his own lips."
+
+
+Then ', with seq: 108
+Sent data: 'the whole assembly rose and led him off to Pilate. And they bega', with seq: 109
+Sent data: 'n to accuse him, saying, "We have found this man subverting our ', with seq: 110
+Sent data: 'nation. He opposes payment of taxes to Caesar and claims to be M', with seq: 111
+Sent data: 'essiah, a king."
+
+
+So Pilate asked Jesus, "Are you the king of t', with seq: 112
+Sent data: 'he Jews?"
+
+
+"You have said so," Jesus replied.
+
+
+Then Pilate ann', with seq: 113
+Sent data: 'ounced to the chief priests and the crowd, "I find no basis for ', with seq: 114
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'a charge against this man."
+
+
+But they insisted, "He stirs up th', with seq: 115
+Sent data: 'e people all over Judea by his teaching. He started in Galilee a', with seq: 116
+Sent data: 'nd has come all the way here."
+
+
+On hearing this, Pilate asked i', with seq: 117
+Sent data: 'f the man was a Galilean. When he learned that Jesus was under H', with seq: 118
+Sent data: 'erod's jurisdiction, he sent him to Herod, who was also in Jerus', with seq: 119
+Sent data: 'alem at that time.
+
+
+When Herod saw Jesus, he was greatly please', with seq: 120
+Sent data: 'd, because for a long time he had been wanting to see him. From ', with seq: 121
+Sent data: 'what he had heard about him, he hoped to see him perform a sign ', with seq: 122
+Sent data: 'of some sort. He plied him with many questions, but Jesus gave h', with seq: 123
+Sent data: 'im no answer. The chief priests and the teachers of the law were', with seq: 124
+Sent data: ' standing there, vehemently accusing him. Then Herod and his sol', with seq: 125
+Sent data: 'diers ridiculed and mocked him. Dressing him in an elegant robe,', with seq: 126
+Sent data: ' they sent him back to Pilate. That day Herod and Pilate became ', with seq: 127
+Sent data: 'friends-before this they had been enemies.
+
+
+Pilate called toget', with seq: 128
+Sent data: 'her the chief priests, the rulers and the people, and said to th', with seq: 129
+Sent data: 'em, "You brought me this man as one who was inciting the people ', with seq: 130
+Sent data: 'to rebellion. I have examined him in your presence and have foun', with seq: 131
+Sent data: 'd no basis for your charges against him. Neither has Herod, for ', with seq: 132
+Sent data: 'he sent him back to us; as you can see, he has done nothing to d', with seq: 133
+Sent data: 'eserve death. Therefore, I will punish him and then release him.', with seq: 134
+Sent data: '"
+
+
+But the whole crowd shouted, "Away with this man! Release Ba', with seq: 135
+Sent data: 'rabbas to us!" (Barabbas had been thrown into prison for an insu', with seq: 136
+Sent data: 'rrection in the city, and for murder.)
+
+
+Wanting to release Jesu', with seq: 137
+Sent data: 's, Pilate appealed to them again. But they kept shouting, "Cruci', with seq: 138
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'fy him! Crucify him!"
+
+
+For the third time he spoke to them: "Wh', with seq: 139
+Sent data: 'y? What crime has this man committed? I have found in him no gro', with seq: 140
+Sent data: 'unds for the death penalty. Therefore I will have him punished a', with seq: 141
+Sent data: 'nd then release him."
+
+
+But with loud shouts they insistently de', with seq: 142
+Sent data: 'manded that he be crucified, and their shouts prevailed. So Pila', with seq: 143
+Sent data: 'te decided to grant their demand. He released the man who had be', with seq: 144
+Sent data: 'en thrown into prison for insurrection and murder, the one they ', with seq: 145
+Sent data: 'en thrown into prison for insurrection and murder, the one they ', with seq: 146
+Sent data: 's led him away, they seized Simon from Cyrene, who was on his wa', with seq: 147
+Sent data: 'y in from the country, and put the cross on him and made him car', with seq: 148
+Sent data: 'ry it behind Jesus. A large number of people followed him, inclu', with seq: 149
+Sent data: 'ding women who mourned and wailed for him. Jesus turned and said', with seq: 150
+Sent data: ' to them, "Daughters of Jerusalem, do not weep for me; weep for ', with seq: 151
+Sent data: 'yourselves and for your children. For the time will come when yo', with seq: 152
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'u will say, 'Blessed are the childless women, the wombs that nev', with seq: 153
+Sent data: 'er bore and the breasts that never nursed!' Then
+
+
+"'they will s', with seq: 154
+Sent data: 'ay to the mountains, "Fall on us!"
+    and to the hills, "Cover ', with seq: 155
+Sent data: 'us!"'
+
+
+For if people do these things when the tree is green, wh', with seq: 156
+Sent data: 'at will happen when it is dry?"
+
+
+Two other men, both criminals,', with seq: 157
+Sent data: ' were also led out with him to be executed. When they came to th', with seq: 158
+Sent data: 'e place called the Skull, they crucified him there, along with t', with seq: 159
+Sent data: 'he criminals-one on his right, the other on his left. Jesus said', with seq: 160
+Sent data: ', "Father, forgive them, for they do not know what they are doin', with seq: 161
+Sent data: 'g." And they divided up his clothes by casting lots.
+
+
+The peopl', with seq: 162
+Sent data: 'e stood watching, and the rulers even sneered at him. They said,', with seq: 163
+Sent data: ' "He saved others; let him save himself if he is God's Messiah, ', with seq: 164
+Sent data: 'the Chosen One."
+
+
+The soldiers also came up and mocked him. The', with seq: 165
+Sent data: 'y offered him wine vinegar and said, "If you are the king of the', with seq: 166
+Sent data: ' Jews, save yourself."
+
+
+There was a written notice above him, w', with seq: 167
+Sent data: 'hich read: this is the king of the jews.
+
+
+One of the criminals ', with seq: 168
+Sent data: 'who hung there hurled insults at him: "Aren't you the Messiah? S', with seq: 169
+Sent data: 'ave yourself and us!"
+
+
+But the other criminal rebuked him. "Don', with seq: 170
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: ''t you fear God," he said, "since you are under the same sentenc', with seq: 171
+Sent data: 'e? We are punished justly, for we are getting what our deeds des', with seq: 172
+Sent data: 'erve. But this man has done nothing wrong."
+
+
+Then he said, "Jes', with seq: 173
+Sent data: 'us, remember me when you come into your kingdom."
+
+
+Jesus answer', with seq: 174
+Sent data: 'ed him, "Truly I tell you, today you will be with me in paradise', with seq: 175
+Sent data: '."
+
+
+It was now about noon, and darkness came over the whole lan', with seq: 176
+Sent data: '."
+
+
+It was now about noon, and darkness came over the whole lan', with seq: 177
+Sent data: ' the curtain of the temple was torn in two. Jesus called out wit', with seq: 178
+Sent data: 'h a loud voice, "Father, into your hands I commit my spirit." Wh', with seq: 179
+Sent data: 'en he had said this, he breathed his last.
+
+
+The centurion, seei', with seq: 180
+Sent data: 'ng what had happened, praised God and said, "Surely this was a r', with seq: 181
+Sent data: 'ighteous man." When all the people who had gathered to witness t', with seq: 182
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'his sight saw what took place, they beat their breasts and went ', with seq: 183
+Sent data: 'away. But all those who knew him, including the women who had fo', with seq: 184
+Sent data: 'llowed him from Galilee, stood at a distance, watching these thi', with seq: 185
+Sent data: 'ngs.
+
+
+Now there was a man named Joseph, a member of the Council', with seq: 186
+Sent data: ', a good and upright man, who had not consented to their decisio', with seq: 187
+Sent data: 'n and action. He came from the Judean town of Arimathea, and he ', with seq: 188
+Sent data: 'himself was waiting for the kingdom of God. Going to Pilate, he ', with seq: 189
+Sent data: 'asked for Jesus' body. Then he took it down, wrapped it in linen', with seq: 190
+Sent data: ' cloth and placed it in a tomb cut in the rock, one in which no ', with seq: 191
+Sent data: 'one had yet been laid. It was Preparation Day, and the Sabbath w', with seq: 192
+Sent data: 'as about to begin.
+
+
+The women who had come with Jesus from Gali', with seq: 193
+Sent data: 'lee followed Joseph and saw the tomb and how his body was laid i', with seq: 194
+Sent data: 'n it. Then they went home and prepared spices and perfumes. But ', with seq: 195
+Sent data: 'they rested on the Sabbath in obedience to the commandment.
+
+
+On', with seq: 196
+Sent data: ' the first day of the week, very early in the morning, the women', with seq: 197
+Sent data: ' took the spices they had prepared and went to the tomb. They fo', with seq: 198
+Sent data: 'und the stone rolled away from the tomb, but when they entered, ', with seq: 199
+Sent data: 'they did not find the body of the Lord Jesus. While they were wo', with seq: 200
+Sent data: 'ndering about this, suddenly two men in clothes that gleamed lik', with seq: 201
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'ndering about this, suddenly two men in clothes that gleamed lik', with seq: 202
+Sent data: 'own with their faces to the ground, but the men said to them, "W', with seq: 203
+Sent data: 'hy do you look for the living among the dead? He is not here; he', with seq: 204
+Sent data: ' has risen! Remember how he told you, while he was still with yo', with seq: 205
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'u in Galilee: 'The Son of Man must be delivered over to the hand', with seq: 206
+Sent data: 's of sinners, be crucified and on the third day be raised again.', with seq: 207
+Sent data: '' " Then they remembered his words.
+
+
+When they came back from t', with seq: 208
+Sent data: 'he tomb, they told all these things to the Eleven and to all the', with seq: 209
+Sent data: ' others. It was Mary Magdalene, Joanna, Mary the mother of James', with seq: 210
+Sent data: ', and the others with them who told this to the apostles. But th', with seq: 211
+Sent data: 'ey did not believe the women, because their words seemed to them', with seq: 212
+Sent data: ' like nonsense. Peter, however, got up and ran to the tomb. Bend', with seq: 213
+Sent data: 'ing over, he saw the strips of linen lying by themselves, and he', with seq: 214
+Sent data: ' went away, wondering to himself what had happened.
+
+
+Now that s', with seq: 215
+Sent data: 'ame day two of them were going to a village called Emmaus, about', with seq: 216
+Sent data: ' seven miles from Jerusalem. They were talking with each other a', with seq: 217
+Sent data: 'bout everything that had happened. As they talked and discussed ', with seq: 218
+Sent data: 'these things with each other, Jesus himself came up and walked a', with seq: 219
+Sent data: 'long with them; but they were kept from recognizing him.
+
+
+He as', with seq: 220
+Sent data: 'ked them, "What are you discussing together as you walk along?"
+', with seq: 221
+Sent data: '
+
+They stood still, their faces downcast. One of them, named Cle', with seq: 222
+Sent data: 'opas, asked him, "Are you the only one visiting Jerusalem who do', with seq: 223
+Sent data: 'es not know the things that have happened there in these days?"
+', with seq: 224
+Sent data: '
+
+"What things?" he asked.
+
+
+"About Jesus of Nazareth," they rep', with seq: 225
+Sent data: 'lied. "He was a prophet, powerful in word and deed before God an', with seq: 226
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'd all the people. The chief priests and our rulers handed him ov', with seq: 227
+Sent data: 'er to be sentenced to death, and they crucified him; but we had ', with seq: 228
+Sent data: 'hoped that he was the one who was going to redeem Israel. And wh', with seq: 229
+Sent data: 'at is more, it is the third day since all this took place. In ad', with seq: 230
+Sent data: 'dition, some of our women amazed us. They went to the tomb early', with seq: 231
+Sent data: ' this morning but didn't find his body. They came and told us th', with seq: 232
+Sent data: 'at they had seen a vision of angels, who said he was alive. Then', with seq: 233
+Sent data: ' some of our companions went to the tomb and found it just as th', with seq: 234
+Sent data: 'e women had said, but they did not see Jesus."
+
+
+He said to them', with seq: 235
+Sent data: ', "How foolish you are, and how slow to believe all that the pro', with seq: 236
+Sent data: 'phets have spoken! Did not the Messiah have to suffer these thin', with seq: 237
+Sent data: 'gs and then enter his glory?" And beginning with Moses and all t', with seq: 238
+Sent data: 'he Prophets, he explained to them what was said in all the Scrip', with seq: 239
+Sent data: 'tures concerning himself.
+
+
+As they approached the village to wh', with seq: 240
+Sent data: 'ich they were going, Jesus continued on as if he were going fart', with seq: 241
+Sent data: 'her. But they urged him strongly, "Stay with us, for it is nearl', with seq: 242
+Sent data: 'y evening; the day is almost over." So he went in to stay with t', with seq: 243
+Sent data: 'hem.
+
+
+When he was at the table with them, he took bread, gave t', with seq: 244
+Sent data: 'hanks, broke it and began to give it to them. Then their eyes we', with seq: 245
+Sent data: 're opened and they recognized him, and he disappeared from their', with seq: 246
+Sent data: ' sight. They asked each other, "Were not our hearts burning with', with seq: 247
+Sent data: 'in us while he talked with us on the road and opened the Scriptu', with seq: 248
+Sent data: 'res to us?"
+
+
+They got up and returned at once to Jerusalem. The', with seq: 249
+Sent data: 're they found the Eleven and those with them, assembled together', with seq: 250
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: ' and saying, "It is true! The Lord has risen and has appeared to', with seq: 251
+Sent data: ' Simon." Then the two told what had happened on the way, and how', with seq: 252
+Sent data: ' Jesus was recognized by them when he broke the bread.
+
+
+While t', with seq: 253
+Sent data: 'hey were still talking about this, Jesus himself stood among the', with seq: 254
+Sent data: 'm and said to them, "Peace be with you."
+
+
+They were startled an', with seq: 255
+Sent data: 'd frightened, thinking they saw a ghost. He said to them, "Why a', with seq: 256
+Sent data: 're you troubled, and why do doubts rise in your minds? Look at m', with seq: 257
+Sent data: 'y hands and my feet. It is I myself! Touch me and see; a ghost d', with seq: 258
+Sent data: 'oes not have flesh and bones, as you see I have."
+
+
+When he had ', with seq: 259
+Sent data: 'said this, he showed them his hands and feet. And while they sti', with seq: 260
+Sent data: 'll did not believe it because of joy and amazement, he asked the', with seq: 261
+Sent data: 'm, "Do you have anything here to eat?" They gave him a piece of ', with seq: 262
+Sent data: 'broiled fish, and he took it and ate it in their presence.
+
+
+He ', with seq: 263
+Sent data: 'said to them, "This is what I told you while I was still with yo', with seq: 264
+Sent data: 'u: Everything must be fulfilled that is written about me in the ', with seq: 265
+Sent data: 'Law of Moses, the Prophets and the Psalms."
+
+
+Then he opened the', with seq: 266
+Sent data: 'ir minds so they could understand the Scriptures. He told them, ', with seq: 267
+Sent data: '"This is what is written: The Messiah will suffer and rise from ', with seq: 268
+Sent data: 'the dead on the third day, and repentance for the forgiveness of', with seq: 269
+Sent data: ' sins will be preached in his name to all nations, beginning at ', with seq: 270
+Sent data: 'Jerusalem. You are witnesses of these things. I am going to send', with seq: 271
+Sent data: ' you what my Father has promised; but stay in the city until you', with seq: 272
+Sent data: ' have been clothed with power from on high."
+
+
+When he had led t', with seq: 273
+Sent data: 'hem out to the vicinity of Bethany, he lifted up his hands and b', with seq: 274
+-----
+Timeout waiting for ACK; resending window
+-----
+Timeout waiting for ACK; resending window
+-----
+-----
+Timeout waiting for ACK; resending window
+-----
+Sent data: 'lessed them. While he was blessing them, he left them and was ta', with seq: 275
+Sent data: 'ken up into heaven. Then they worshiped him and returned to Jeru', with seq: 276
+Sent data: 'salem with great joy. And they stayed continually at the temple,', with seq: 277
+Sent data: ' praising God.', with seq: 278
+
+All data sent successfully.
+
+Sent FIN
+Received ACK for FIN. Now a final Fin from the server is needed to close connection.
+Received server Fin
+Sent final ACK
+Connection Closed

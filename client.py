@@ -8,7 +8,7 @@ SERVER_ADDR = (SERVER_IP, SERVER_PORT)
 CLIENT_RWND = 24
 TIMEOUT = 1.0
 PAYLOAD_SIZE = 64
-DATA_FILENAME = 'protocol.txt'
+DATA_FILENAME = 'jesus.txt'
 
 def start_client():
 
